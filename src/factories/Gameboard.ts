@@ -43,12 +43,12 @@ class Gameboard {
     if (!this.isEmpty()) return
 
     const ships = []
-    const carrier = new Ship(5)
-    const battleship = new Ship(4)
-    const destroyer = new Ship(3)
-    const submarine = new Ship(3)
-    const patrolBoat = new Ship(2)
-    ships.push(carrier, battleship, destroyer, submarine, patrolBoat)
+    const carrier = new Ship(4)
+    const cruiser1 = new Ship(3)
+    const cruiser2 = new Ship(3)
+    const cruiser3 = new Ship(3)
+    const submarine = new Ship(2)
+    ships.push(carrier, cruiser1, cruiser2, cruiser3, submarine)
 
     let succesfulPlacements = 0
 
