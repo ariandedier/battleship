@@ -89,9 +89,7 @@ const StartScreen = ({
   return (
     <StartScreenWrapper>
       <SetupWindow>
-        <p>
-          <strong>Welcome to battleship game</strong>
-        </p>
+        <input type="text" placeholder='Enter your Name...'/>
         <p>
           Place your <u>{currentShipName}</u>
         </p>
