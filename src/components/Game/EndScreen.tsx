@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import Button from '../elements/Button'
 
+
 interface Props {
   message: string
   resetGame: () => void
@@ -18,6 +19,8 @@ const EndScreen = ({ message, resetGame }: Props) => {
   )
 }
 
+
+//STYLES
 const EndScreenWrapper = styled.div`
   position: absolute;
   top: 0;

@@ -5,6 +5,7 @@ import Ship from '../../factories/Ship'
 import Button from '../elements/Button'
 import { v4 as uuidv4 } from 'uuid'
 
+
 interface Props {
   gameboard: Gameboard
   setUserGameboard: (gameBoard: Gameboard) => void
@@ -89,7 +90,6 @@ const StartScreen = ({
   return (
     <StartScreenWrapper>
       <SetupWindow>
-        <input type="text" placeholder='Enter your Name...'/>
         <p>
           Place your <u>{currentShipName}</u>
         </p>
@@ -126,6 +126,10 @@ const SetupWindow = styled.div`
   height: 80rem;
   padding: ${({ theme }) => theme.padding.md};
   background-color: ${({ theme }) => theme.colors.light.secondary};
+  input{
+    border-radius: 10px;
+    padding: 10px;
+  }
 `
 
 const Board = styled.div`
