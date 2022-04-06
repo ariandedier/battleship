@@ -11,8 +11,8 @@ declare module 'styled-components' {
         primary: string
         secondary: string
       }
-      red: string
-      green: string
+      primary: string,
+      secondary: string,
     }
     padding: {
       sm: string

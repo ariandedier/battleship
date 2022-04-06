@@ -163,7 +163,7 @@ const FieldHover = styled.div<IFieldHover>`
   width: 3.8rem;
 
   &:hover {
-    background-color: ${({ theme }) => theme.colors.green};
+    background-color: ${({ theme }) => theme.colors.secondary};
 
     ${({ isVertical, shipLength }) =>
       isVertical &&
